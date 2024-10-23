@@ -20,6 +20,7 @@
 •	Создайте документацию для разработанного API с описанием маршрутов, методов, ожидаемых параметров и примеров запросов.
 
 Бд до изменений:
+
 ![image](https://github.com/user-attachments/assets/8ea25133-22a3-40f5-8281-d5859fb07cac)
 
 Результат работы GET /users
@@ -40,6 +41,7 @@ curl -X POST http://localhost:8000/users -H "Content-Type: application/json" -d 
 ![image](https://github.com/user-attachments/assets/5f7d0fe8-b923-4e74-b1a8-8dc41eb43130)
 
 В нашей бд появился Трамп с id = 9
+
 ![image](https://github.com/user-attachments/assets/552d6bfd-c82c-4a38-b41d-1cdb552ed6ec)
 
 Обновление инфы о юзере с помощью PUT /users/{id}
